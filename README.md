@@ -24,8 +24,8 @@ Perfect for:
 
 # Prerequisites
 - **Node.js v18+** installed  
-- A **Google Gemini API key**  
-  → Get it here: [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
+- **OpenAI API Key**  
+  → Get it here: [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
 
 ---
 
@@ -33,5 +33,6 @@ Perfect for:
 ```bash
 git clone https://github.com/hridhykk/figma-to-html.git
 cd figma-to-html
+
 
 
