@@ -1,0 +1,43 @@
+# 🧠 Environment variables (keep secrets safe)
+.env
+
+# 🗂️ Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ⚙️ Output / build artifacts
+dist/
+output/
+build/
+tmp/
+temp/
+
+# 🧩 Logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# 🧰 OS-generated files
+.DS_Store
+Thumbs.db
+
+# 🚫 IDE / editor configs
+.vscode/
+.idea/
+*.swp
+
+# 🧪 Environment backups or lock files
+.env.*
+*.local
+
+# ⚙️ Optional: ignore test results
+coverage/
+*.spec.js
+*.test.js
+
+# ⚙️ Ignore macOS or Windows metadata
+ehthumbs.db
+Icon?
