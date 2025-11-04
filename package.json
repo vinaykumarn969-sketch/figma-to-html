@@ -2,6 +2,7 @@
   "name": "projectsample",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "main": "index.js",
   "scripts": {
     "generate": "node src/main.js"
@@ -14,6 +15,6 @@
     "dotenv": "^17.2.3",
     "fs-extra": "^11.3.2",
     "open": "^10.2.0",
-    "openai": "^6.7.0"
+    "openai": "^6.8.0"
   }
 }

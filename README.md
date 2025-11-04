@@ -23,16 +23,11 @@ Perfect for:
 ---
 
 # Prerequisites
-- **Node.js v18+** installed  
+- **Node.js** installed  
 - **OpenAI API Key**  
   → Get it here: [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
 
 ---
-
-# Clone or Open the Project
-```bash
-git clone https://github.com/hridhykk/figma-to-html.git
-cd figma-to-html
 
 
 
