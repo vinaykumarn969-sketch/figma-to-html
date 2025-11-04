@@ -13,31 +13,3 @@ dist/
 build/
 tmp/
 temp/
-
-# 🧩 Logs
-*.log
-*.pid
-*.seed
-*.pid.lock
-
-# 🧰 OS-generated files
-.DS_Store
-Thumbs.db
-
-# 🚫 IDE / editor configs
-.vscode/
-.idea/
-*.swp
-
-# 🧪 Environment backups or lock files
-.env.*
-*.local
-
-# ⚙️ Optional: ignore test results
-coverage/
-*.spec.js
-*.test.js
-
-# ⚙️ Ignore macOS or Windows metadata
-ehthumbs.db
-Icon?
