@@ -1,0 +1,135 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #fafa;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Device frame */
+.frame {
+  position: relative;
+  width: 393px;
+  height: 852px;
+  background: #fafafa;
+  border-radius: 32px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding: 0 16px;
+}
+
+/* Headline */
+.headline {
+  font-weight: 700;
+  font-size: 48px;
+  color: #363240;
+  margin-top: 170px;
+  margin-left: 16px;
+}
+
+/* Input fields */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 329px;
+  margin: 40px 0 0 16px;
+}
+
+.input-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 16px;
+  border: 1px solid #d6d6d6;
+}
+
+.input-field.top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: none;
+}
+
+.input-field.bottom {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  color: #363240;
+  background: transparent;
+}
+
+/* Buttons */
+.btn-primary {
+  width: 361px;
+  height: 46px;
+  border: none;
+  border-radius: 62px;
+  background: linear-gradient(135deg, #963688 0%, #3a3cba 100%);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+  margin: 70px 16px 12px 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  width: 361px;
+  height: 46px;
+  border: none;
+  border-radius: 62px;
+  background: #e1e0e6;
+  color: #363240;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+  margin: 12px 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #d4d2dc;
+}
+
+/* Forgot password */
+.forgot {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(54, 50, 64, 0.8);
+  margin-top: 12px;
+}
+
+/* Home indicator */
+.home-indicator {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 139px;
+  height: 5px;
+  background-color: #2c194d;
+  border-radius: 100px;
+}

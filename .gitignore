@@ -9,7 +9,7 @@ yarn-error.log*
 
 # ⚙️ Output / build artifacts
 dist/
-output/
+
 build/
 tmp/
 temp/
